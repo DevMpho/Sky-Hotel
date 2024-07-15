@@ -1,0 +1,216 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: lightgray;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url(largepool.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .box {
+      background-color: rgba(0, 0, 0 , 0.6);
+      height: 100%;
+  }
+  .navbar {
+      font-size: larger;
+      font-weight: 100%;
+  }
+    
+  
+  ul {
+      list-style-type: none;
+      margin-right: 100px;
+      padding: 0;
+  }
+  li {
+      float: right;
+  }
+  
+  li a {
+      display: block;
+      padding: 30px;
+      color:white;
+      text-decoration: none;
+  }
+  
+  li a:hover {
+      
+      color: rgb(183, 180, 38);
+  
+  }
+  
+.tittle,  p{
+    color: white;
+    text-align: center;
+  }
+  
+  header {
+    margin-top: 300px;
+    
+  }
+  .tittle {
+    
+    font-size: 80px;
+    font-weight: bolder;
+  }
+  
+  
+
+
+
+
+
+.sec1 {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div{text-align: center;}
+/*body{background-color: lightgray;display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}*/
+
+
+.content {
+
+text-align: center;
+max-width: 600px;
+padding: 20px;
+margin: 0 auto;
+margin-top: 80px;
+background-color: lightgray;
+}
+h1{
+    color: black;
+}
+.address {
+  color: black;
+}
+h2{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hotel-info {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+margin-bottom: 20px;
+}
+
+.hotel-info img {
+margin-right: 20px; /* Space between image and text */
+}
+.getInfo {
+    padding: 12px;
+    width: 100%;
+    border-radius: 4px;
+}
+#message {
+    height: 25%;
+}
+.infoSubmit {
+    padding: 12px;
+    background-color: #c5a880;
+    border: 1px solid #c5a880;
+    color: white;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 60px;
+    padding: 40px 0;
+  }
+  
+  .containar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-info {
+    margin-bottom: 20px;
+  }
+  
+  .footer-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-info p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+
+  #scrollTopBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    background-color: #555; /* Set a background color */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Increase font size */
+}
+
+#scrollTopBtn:hover {
+  background-color: #333;; /* Darker background on hover */
+}

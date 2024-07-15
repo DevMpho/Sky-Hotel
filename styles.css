@@ -1,0 +1,68 @@
+/*
+
+
+
+.room-container {
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.room {
+    width: 30%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden; 
+    position: relative;
+}
+
+.room img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.room:hover img {
+    transform: scale(1.1);
+}
+
+
+.description {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.description h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.description p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+input {
+    background-color: #cad1d8;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius:30px;
+    transition: background-color 0.3s ease; 
+
+}
+
+input:hover {
+    background-color: white;
+}
+    */
+
+

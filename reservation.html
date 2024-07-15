@@ -1,0 +1,123 @@
+
+<html> 
+  <head>
+    <style>
+      body{ 
+        background-image: linear-gradient(to right, gray,lightblue);
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+    </style>
+  </head>
+<form style=" background-image: linear-gradient(to right, gray,lightblue);" style="text-align: center;">
+
+<body>
+<h1>Reservation</h1>
+
+ <fieldset>
+  <legend>Enter details for reservation :</legend><br>
+
+  <option value = ""></option>
+  <label for="title">Title
+  <select id="title" name="floor">
+    <option value="title 1">Mr</option>
+    <option value="title 2">Ms</option>
+    <option value="title 3">Miss</option>
+    <option value="title 4">Mrs</option>
+    <option value="title 5">Dr</option>
+    <option value="title 6">Mx(do not wish to say) </option> <br><br>
+  </select>
+
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br>
+
+  <label for="NOK">Next of kin</label>
+  <input type="text" id="NOK" name="next of kin">
+  <label for="nok Contact"> Contact number</label>
+  <input type="tel" id="nok contact" name="next of kin contact" placeholder="0729724383" pattern="[0-9]{10}" required><br>
+
+  <u> <h4>Choose your room type </h4> <br>  </u>
+
+  <input type="radio" id="2 sleeper" name="Room type" value="2 2leeper ">
+  <label for="2 sleeper"> 2 sleeper </label><br>
+  <input type="radio" id="2xsleeper"    name="Room type" value="2xsleeper">
+  <label for="2 sleeper"> 2 sleeper with balcony </label><br>
+  <input type="radio" id="4 sleeper" name="Room type" value="4 sleeper">
+  <label for="3 sleeper"> 3 sleeper</label><br>
+  <input type="radio" id="fam" name="Room type" value="family suite">
+  <label for="fam"> Family suite</label><br>
+  <input type="radio" id="bachelor" name="'Room type" value="Bachelor">
+  <label for="bachelor">Bachelor</label><br>
+
+    </label>
+
+    <option value = ""></option>
+      <label for="floor">Choose your room floor>
+      <select id="floor" name="floor">
+        <option value="floor 1">1</option>
+        <option value="floor 2">2</option>
+        <option value="floor 3">3</option>
+        <option value="floor 4">4</option>
+        <option value="floor 5">5</option>
+        <option value="floor 6">6</option>
+        <option value="floor 7">7</option>
+        <option value="floor 8">8</option>
+        <option value="floor 9">9</option>
+        <option value="floor 10">10</option>
+        <option value="floor 11">11</option>
+        <option value="floor 12">12</option>
+        <option value="floor 13">13</option>
+        <option value="floor 14">14</option>
+        <option value="floor 15">15</option>
+    
+      </select>
+      <br><br>
+
+      <option value=""></option>
+      <label for="adults">Number of adults
+          <select id="adults" name="adults">
+            <option value=" 1">1</option>
+            <option value=" 2">2</option>
+            <option value=" 3">3</option>
+            <option value=" 4">4</option>
+  
+  
+          </select>
+  
+      <option value=""></option>
+      <label for="kids">Number of kids(under 18)
+          <select id="kids" name="adults">
+            <option value=" 1">1</option>
+            <option value=" 2">2</option>
+            <option value=" 3">3</option>
+            <option value=" 4">4</option><br><br>
+            </select>
+  <br><br>
+
+  <label for="arrdate">Arrival date:</label>
+  <input type="date" id="Booking date" name="Booking date">
+  <label for="dapdate">Departure date</label>
+  <input type="date" id="depdate" >
+  <br><br>
+
+  <u>   <h4>Payment method</h4> </u>
+  <input type="radio" id="payment" name="payment" value="Cash">
+  <label for="payment">Cash</label>
+  <input type="radio" id="payment" name="payment" value="Card">
+  <label for="payment">Card</label><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="cell no">Contact number:</label>
+  <input type="tel" id="cell no" name="Contact number" placeholder="0729724383" pattern="[0-9]{10}" required><br><br>
+
+
+  <input type="submit" value="Submit"><br>
+ </fieldset>
+</form>
+</body>
+</html>

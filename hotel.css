@@ -1,0 +1,381 @@
+
+    
+    
+/*body {
+  background-image: url("largepool.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  
+}
+
+  
+  .navbar {
+    font-size: larger;
+    font-weight: 100%;
+  }
+  
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+li a:hover {
+    
+    color: gray;
+
+}*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(largepool.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.box {
+    background-color: rgba(0, 0, 0 , 0.6);
+    height: 100%;
+}
+.navbar {
+    font-size: larger;
+    font-weight: 100%;
+}
+  
+
+ul {
+    list-style-type: none;
+    margin-right: 100px;
+    padding: 0;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 30px;
+    color:white;
+    text-decoration: none;
+}
+
+li a:hover {
+    
+    color: rgb(246, 75, 13);
+
+}
+
+h1, p{
+  color: white;
+  text-align: center;
+}
+
+header {
+  margin-top: 300px;
+  
+}
+h1 {
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+.slogan1 {
+  font-size: 18px;
+  font-weight:normal;
+
+}
+
+.flex {
+  display: flex;
+}
+.grid {
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 50px;
+}
+.book {
+  margin-top: 5%;
+  width: 100%;
+  height: 20vh;
+  color: white;
+}
+
+.book .input {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px 20px 40px 40px;
+  margin-left: 50px;
+  
+}
+.book .search {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  
+
+}
+input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  outline: none;
+  background: #263760;
+  margin-top: 20px;
+  color: white;
+}
+.book .search {
+  width: 20%;
+}
+.book .search input{
+      background: none;
+      border: none;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 40px;
+}
+.book .hov:hover {
+  cursor: pointer;
+}
+
+
+
+
+.gallerybox {
+  background-color: grey;
+  
+}
+
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.box-item {
+  flex: 0 1 48%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.box-item img {
+  max-width: 100%;
+  height: auto;
+  display:block;
+  margin-bottom: 10px;
+  
+}
+.heading2 {
+  margin-top: 15%;
+
+}
+.box-item .info {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.box-item p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+
+/*@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+  }
+
+  .box-item {
+      flex: 1 1 auto;
+  }
+}*/
+.message {
+  color: black;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+
+.rooms {
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.room-item {
+  
+  display: inline-block; 
+  text-align: center;
+  margin: 20px;
+  vertical-align: top; 
+  position: relative; 
+  overflow: hidden; 
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+}
+
+.room-item img {
+  max-width: 50%;
+  border-radius: 10px;
+  height: auto;
+  transition: transform 0.3s ease; /* Added transition for smooth zoom effect */
+}
+
+/*.img1 {
+  width: 50%;
+} 
+.img2 {
+  width: 45%;
+}*/
+
+
+.room-item:hover img {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.room-item p {
+  color: rgb(95, 93, 93);
+  font-size: 16px;
+  
+  margin-top: 10px;
+}
+p span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.view-more-btn {
+  padding: 20px 30px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.view-more-btn:hover {
+  background-color: #cd710e;
+}
+
+
+.gallery-image {
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+}
+.gallery-image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: 60px;
+  padding: 40px 0;
+}
+
+.containar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-info {
+  margin-bottom: 20px;
+}
+
+.footer-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-info p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+#scrollTopBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  background-color: #555; /* Set a background color */
+  color: white; /* Text color */
+  text-align: center; /* Center the text */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Increase font size */
+}
+
+#scrollTopBtn:hover {
+  background-color: #333; /* Darker background on hover */
+}

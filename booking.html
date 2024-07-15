@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="booking.css">
+    
+    
+</head>
+<body>
+
+    <a id="top"></a>
+
+
+  <div class="bg">
+    <div class="box1">
+    <div class="nav">
+    <ul>
+    <div class="navbar">
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="About.html">About Us</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="Hotel.html">Home</a></li>
+    </div>
+        <i><li style="float: left; font-size: xx-large; font-weight: bolder;"><a href="#logo"> Hotel Sky</a></li></i>
+      </ul>
+    </div>
+    
+    
+    <br><br><br><br>
+    <header>
+    <h1>Booking Form</h1>
+    
+    </header>
+</div>
+</div>
+
+
+    <section class="form1">
+        <form action="" class="form" id="myform">
+            <h1>Hotel Booking Form</h1>
+            <label for="fname">Full Name:</label><br>
+            <input type="text" name="Fname" placeholder="First Name"  id="demo" class="box" required>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" name="lname" placeholder="Last Name" class="box" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" class="box"><br>
+        
+            <label for="Contact">Contact Number:</label><br>
+            <input type="tel" id="contact" name="contact"  placeholder="072 654 6789" pattern="[0-9]{10}" class="box"><br>
+            <label for="check-in">Check-in Date:</label><br>
+            <input type="date" id="check-in" name="check-in" required class="box"><br>
+            <label for="check-out">Check-out Date:</label><br>
+            <input type="date" id="check-out" name="check-out" required class="box"><br>
+              <label for="adults">Room Type:</label><br>
+                  <select id="rooms" name="rooms" class="box" required>
+                    <option value=" bachelor room">Bachelor room</option>
+                    <option value=" 2 sleeper room">2 Sleeper Room</option>
+                    <option value=" 2 sleeper balcony">2 Sleeper Room with balcony</option>
+                    <option value=" 3 sleeper room">3 Sleeper Room</option>
+                    <option value=" family room">Family Suite Room</option>
+                    <option value=" presidential room">Presidential Room</option>
+                  </select><br>
+        
+                  <label for="adults">No. of Adults</label>
+                  <input type="number" id="adults" name="adults" placeholder="ex. 3" class="box">
+                  <label for="kids">No. of kids(under 18)</label>
+                  <input type="number" id="kids" name="kids" placeholder="ex. 3" class="box">
+                  
+                  <label for="payment">Payment Method</label><br>
+                  <label for="payment">Cash</label>
+                  <input type="radio" id="payment" name="payment" value="Cash">
+                  <label for="payment">Card</label>
+                  <input type="radio" id="payment" name="payment" value="Card"><br>
+        
+        
+            <textarea name="message" rows="10" cols="30" class="box">Special request:</textarea><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </section>
+    
+
+    <section class="slideshow">
+        <h2 style="margin-bottom: 20px;">Our Gallery</h2>
+        <img class="gallery-image"  src="spa.jpg" alt="spa" width="300" height="300">
+        <img class="gallery-image" src="food.jpg" alt="food" width="300" height="300">
+        <img class="gallery-image" src="bed.jpg" alt="bed" width="300" height="300">
+        <img class="gallery-image" src="nightPool.jpg" alt="pool" width="300" height="300">
+        <img class="gallery-image" src="woman.jpg" alt="women" width="300" height="300">
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="containar">
+            <div class="footer-info">
+                <h3>Contact Us</h3>
+                <p>9 Lower Long Street, Cape Town<br>South Africa, 8000</p>
+                <p>Phone: +27 031 476 5042<br>Email: info@hotelsky.com</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/skyhotel" target="_blank"><img src="Instagram.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/skyhotel" target="_blank"><img src="Facebook.png" alt="Facebook"></a>
+                <a href="mailto:info@hotelsky.com"><img src="email.jpg" alt="Email"></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024  Hotel Sky. All rights reserved.</p>
+        </div>
+    </footer>
+  
+
+
+
+
+    <script>
+        document.getElementById("myform").addEventListener("submit", function(event) {
+            let firstName = document.getElementsByName("Fname")[0].value;
+            let lastName = document.getElementsByName("lname")[0].value;
+            alert("Thank you for booking with us, " + firstName + " " + lastName);
+        });
+    </script>
+
+    <a href="#top" id="scrollTopBtn" title="Go to top">↑</a>
+</body>
+</html>
